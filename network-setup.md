@@ -56,3 +56,32 @@
 - Devices are configured to operate on the subnet: 255.255.0.0. for Switch1
 - Devices are configured to operate on the subnet: 255.255.255.0. for Switch2
 - DHCP is enabled on the router for automatic IP assignment to hosts.
+
+## DHCP SETUP
+Enter the configuration mode:
+
+enable
+configure terminal
+
+
+Create a DHCP Pool for Hosts on Switch 1:
+Define the DHCP pool and settings:
+
+ip dhcp pool Switch1_Pool
+network 168.90.0.0 255.255.0.0
+default-router 168.90.0.1
+dns-server 8.8.8.8
+
+Exclude the router’s IP address from being assigned dynamically:
+ip dhcp excluded-address 168.90.0.1
+
+Create a DHCP Pool for Hosts on Switch 2:
+Define the DHCP pool and settings:
+
+ip dhcp pool Switch2_Pool
+network 210.3.14.0 255.255.255.0
+default-router 210.3.14.1
+dns-server 8.8.8.8
+
+Exclude the router’s IP address from being assigned dynamically:
+ip dhcp excluded-address 210.3.14.1
