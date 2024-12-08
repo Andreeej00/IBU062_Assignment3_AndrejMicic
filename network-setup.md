@@ -17,32 +17,40 @@
 ### Hosts
 1. **Host 1** - Switch 1  
    - Device: Desktop PC  
-   - Assigned IP: 168.90.0.4  
+   - Assigned IP: 168.90.0.2  
 
 2. **Host 2** - Switch 1 
    - Device: Laptop  
-   - Assigned IP: 168.90.0.6 
+   - Assigned IP: 168.90.0.4 
 
 3. **Host 3** - Switch 1  
    - Device: Server  
-   - Assigned IP: 168.90.0.3 
+   - Assigned IP: 168.90.0.5 
 
 4. **Host 4** - Switch 1  
    - Device: Desktop PC   
-   - Assigned IP: 168.90.0.5 
+   - Assigned IP: 168.90.0.3
+
+5. **Host 5** - Switch 1  
+   - Device: Desktop PC   
+   - Assigned IP: 168.90.0.6
 
 
-5. **Host 5** - Switch 2
+6. **Host 6** - Switch 2
    - Device: Server  
-   - Assigned IP: 210.3.14.6
+   - Assigned IP: 210.3.14.2
 
-6. **Host 6** - Switch 2  
+7. **Host 7** - Switch 2  
    - Device: Server  
    - Assigned IP: 210.3.14.4
 
-7. **Host 7** - Switch 2 
+8. **Host 8** - Switch 2 
    - Device: Desktop PC  
-   - Assigned IP: 210.3.14.2 
+   - Assigned IP: 210.3.14.3 
+
+9. **Host 9** - Switch 2 
+   - Device: Desktop PC  
+   - Assigned IP: 210.3.14.5 
 
 ## Notes
 - Devices are configured to operate on the subnet: 255.255.0.0. for Switch1
